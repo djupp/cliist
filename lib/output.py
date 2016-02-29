@@ -10,7 +10,7 @@ class Plain:
         'set': colors.ENDC
     }
     FORMAT = {
-        'task': '{c0}{indent}{c5}{priority:>3.3} {c1}{content}{c0}\n        {c3}{project_name:26.26}{c4} {label_names:26.26} {c2}Due: {due:12.12}\n{c0}',
+        'task': '{c5}{taskid}{indent}{priority:>3.3} {c1}{content}{c0}\n        {c3}{project_name:26.26}{c4} {label_names:26.26} {c2}Due: {due:12.12}\n{c0}',
         'project': '\n{color}#{project_name}\n',
         'unknown': '',
     }
